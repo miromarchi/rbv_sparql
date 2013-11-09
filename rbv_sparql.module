@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sparql endpoint feature.
+ */
+
+include_once 'rbv_sparql.features.inc';

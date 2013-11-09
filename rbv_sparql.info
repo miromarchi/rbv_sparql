@@ -1,0 +1,17 @@
+name = Sparql endpoint
+description = Sparql endpoint arc2 store RDF indexer search API
+core = 7.x
+package = RBV views
+version = 7.x-1.0
+project = rbv_sparql
+dependencies[] = arc2_store
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = rdf_indexer
+dependencies[] = search_api
+features[arc2_store_settings][] = default
+features[ctools][] = arc2_store:arc2_store:1
+features[features_api][] = api:2
+features[search_api_index][] = node_rdf_index
+features[search_api_server][] = rdf_indexing_server
+project path = sites/all/modules/features
